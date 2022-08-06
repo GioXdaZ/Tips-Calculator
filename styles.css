@@ -1,0 +1,137 @@
+body {
+  width: 1440px;
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+  color: hsl(184, 14%, 56%);
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 465px auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 500px;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+input {
+  border-style: none;
+  font-family: "Space Mono", monospace;
+  color: hsl(184, 14%, 56%);
+  outline: 0;
+  text-align: end;
+}
+
+.input {
+  font-size: 24px;
+  margin: 5px 15px;
+  width: 150px;
+}
+
+.buttons-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-tip {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-tip:hover {
+  background: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.custom-input {
+  width: 55px;
+}
+
+.custom-input::placeholder {
+  color: hsl(184, 14%, 56%);
+  text-align: center;
+}
+
+.number-people {
+  margin-top: 5px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 180px;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 10px;
+}
+
+.tip-amount--total-person {
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  margin-left: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.result-tip-amount--total-person {
+  display: flex;
+  font-size: 28px;
+  align-items: center;
+  color: hsl(172, 67%, 45%);
+}
+
+.btn-reset {
+  display: flex;
+  width: 160px;
+  margin: 20px;
+  font-family: "Space Mono", monospace;
+  color: hsl(183, 100%, 15%);
+  background: hsl(172, 67%, 45%);
+  border: none;
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
