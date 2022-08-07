@@ -4,10 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Tip calculator app</title>
+  <title>Tip calculator app</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
@@ -21,39 +19,43 @@
   <div class="container">
 
     <div class="logo">
-      <img src="/images/logo.svg" alt="logo">
+      <img src="/images/GioXdaZ.svg" alt="logo">
     </div>
     <div class="calculator-container">
       <div class="input-container">
         <div>
-          Bill
+          <div class="titles-inputs-panel">
+            Bill
+          </div>
           <div class="input-panel">
-            <img src="/images/icon-dollar.svg" alt="dollar">
-            <input class="input" type="text">
+            <img class="icon-svg" src="/images/icon-dollar.svg" alt="dollar">
+            <input class="input input-bill" type="text">
           </div>
 
-          <div class="select-tip">
+          <div class="titles-inputs-panel">
             Select Tip %
-            <div class="buttons-panels">
-              <div class="panel-btn">
-                <button class="btn-tip">5%</button>
-                <button class="btn-tip">10%</button>
-                <button class="btn-tip">15%</button>
-              </div>
-              <div class="panel-btn">
-                <button class="btn-tip">25%</button>
-                <button class="btn-tip">50%</button>
-                <input class="custom-input" type="text" placeholder="Custom">
-              </div>
+          </div>
+          <div class="buttons-panels">
+            <div class="panel-btn">
+              <button class="btn-tip tip-5">5%</button>
+              <button class="btn-tip tip-10">10%</button>
+              <button class="btn-tip tip-15">15%</button>
+            </div>
+            <div class="panel-btn">
+              <button class="btn-tip tip-25">25%</button>
+              <button class="btn-tip tip-50">50%</button>
+              <input class="custom-input" type="text" placeholder="Custom">
             </div>
           </div>
 
-          <div class="number-people">
+
+          <div class="titles-inputs-panel">
             Number of People
-            <div class="input-panel">
-              <img src="/images/icon-person.svg" alt="person">
-              <input class="input" type="text">
-            </div>
+          </div>
+
+          <div class="input-panel">
+            <img class="icon-svg" src="/images/icon-person.svg" alt="person">
+            <input class="input input-person" type="text">
           </div>
         </div>
 
@@ -65,14 +67,14 @@
             <p>Tip Amount</p>
             <small>/ person</small>
           </div>
-          <div class="result-tip-amount--total-person">$4.27</div>
+          <div class="result-tip-amount--total-person result--0">$4.27</div>
         </div>
         <div class="tip-amount--total-person">
           <div class="info">
             <p>Total</p>
             <small>/ person</small>
           </div>
-          <div class="result-tip-amount--total-person">$32.79</div>
+          <div class="result-tip-amount--total-person result--1">$32.79</div>
         </div>
         <button class="btn-reset">
           RESET
@@ -90,9 +92,13 @@
   </div>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://github.com/GioXdaZ" target="_blank">GioXdaZ</a>.
+    Coded by GioXdaZ <a href="https://github.com/GioXdaZ" target="_blank">
+      <img class="footer-icon" src="/images/github.svg" alt="github-icon">
+    </a>
   </div>
+
+
+  <script src="/script.js"></script>
 </body>
 
 </html>
